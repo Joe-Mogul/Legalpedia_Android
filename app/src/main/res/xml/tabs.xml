@@ -1,0 +1,33 @@
+<tabs>
+
+
+    <tab
+        id="@+id/tab_smi"
+        icon="@drawable/smi_white_25"
+        title="Subject Matter Index" />
+    <tab
+        id="@+id/tab_cases"
+        icon="@drawable/judgement_white_25"
+        title="Judgements" />
+
+
+
+
+
+    <tab
+        id="@+id/tab_lfn"
+        icon="@drawable/lfn_white_25"
+        title="Laws of the Federation" />
+
+    <tab
+        id="@+id/tab_rules"
+        icon="@drawable/rules_white_25"
+        title="Rules" />
+
+    <tab
+        id="@+id/tab_precedence"
+        icon="@drawable/forms_white_25"
+        title="Forms and Precedence" />
+
+
+</tabs>

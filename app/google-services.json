@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "42143552338",
+    "firebase_url": "https://legalpedia-b5caa.firebaseio.com",
+    "project_id": "legalpedia-b5caa",
+    "storage_bucket": "legalpedia-b5caa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42143552338:android:7806a8339dbb0a40",
+        "android_client_info": {
+          "package_name": "com.legalpedia.android.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42143552338-k22ddb82muue2ntcp9h8lhhid0412va4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOMiye2gp2CTSeXVJ1ILa7No1-jjlQDNQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

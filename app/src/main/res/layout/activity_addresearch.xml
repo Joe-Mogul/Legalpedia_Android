@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/main_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+ <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <EditText
+        style="@style/FullWidthEditText"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/aluminum"
+        android:inputType="textMultiLine"
+        android:gravity="top|left"
+        android:hint="Title"
+        android:textSize="16dip"/>
+
+        <EditText
+            style="@style/FullWidthEditText"
+            android:id="@+id/researchdetail"
+            android:gravity="top|left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/aluminum"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:background="@drawable/searchview"
+            android:hint="Research Details"
+            android:textSize="16dip"/>
+
+
+
+        <EditText
+            style="@style/FullWidthEditText"
+            android:id="@+id/description"
+            android:gravity="top|left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/aluminum"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:hint="Short Description"
+            android:textSize="16dip"/>
+
+
+
+        <EditText
+            style="@style/FullWidthEditText"
+            android:id="@+id/recommendedcitations"
+            android:gravity="top|left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/aluminum"
+            android:inputType="textMultiLine"
+            android:background="@drawable/searchview"
+            android:textColor="@color/black"
+            android:hint="Recommended Citations"
+            android:textSize="16dip"/>
+
+   <EditText
+            style="@style/FullWidthEditText"
+            android:id="@+id/expecteddate"
+            android:gravity="top|left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/aluminum"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:hint="2017-07-30"
+            android:textSize="16dip"/>
+
+    <EditText
+        style="@style/FullWidthEditText"
+        android:id="@+id/message"
+        android:gravity="top|left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/aluminum"
+        android:inputType="textMultiLine"
+        android:background="@drawable/searchview"
+        android:textColor="@color/black"
+        android:hint="Message"
+        android:textSize="16dip"/>
+
+
+
+        <EditText
+            style="@style/FullWidthEditText"
+            android:id="@+id/comment"
+            android:gravity="top|left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/aluminum"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:hint="Additional Comments"
+            android:textSize="16dip"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

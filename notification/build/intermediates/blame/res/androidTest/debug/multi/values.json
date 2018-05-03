@@ -1,0 +1,275 @@
+[
+    {
+        "outputFile": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 19,
+                    "endOffset": 202
+                },
+                "from": {
+                    "file": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 19,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 207,
+                    "endColumn": 62,
+                    "endOffset": 265
+                },
+                "from": {
+                    "file": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 207,
+                        "endColumn": 62,
+                        "endOffset": 265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 270,
+                    "endColumn": 61,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 270,
+                        "endColumn": 61,
+                        "endOffset": 327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 332,
+                    "endColumn": 63,
+                    "endOffset": 391
+                },
+                "from": {
+                    "file": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 332,
+                        "endColumn": 63,
+                        "endOffset": 391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 396,
+                    "endColumn": 65,
+                    "endOffset": 457
+                },
+                "from": {
+                    "file": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 396,
+                        "endColumn": 65,
+                        "endOffset": 457
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 462,
+                    "endColumn": 62,
+                    "endOffset": 520
+                },
+                "from": {
+                    "file": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 462,
+                        "endColumn": 62,
+                        "endOffset": 520
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 525,
+                    "endColumn": 77,
+                    "endOffset": 598
+                },
+                "from": {
+                    "file": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 525,
+                        "endColumn": 77,
+                        "endOffset": 598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 603,
+                    "endColumn": 67,
+                    "endOffset": 666
+                },
+                "from": {
+                    "file": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 603,
+                        "endColumn": 67,
+                        "endOffset": 666
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 671,
+                    "endColumn": 88,
+                    "endOffset": 755
+                },
+                "from": {
+                    "file": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 671,
+                        "endColumn": 88,
+                        "endOffset": 755
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 760,
+                    "endColumn": 82,
+                    "endOffset": 838
+                },
+                "from": {
+                    "file": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 760,
+                        "endColumn": 82,
+                        "endOffset": 838
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 843,
+                    "endColumn": 64,
+                    "endOffset": 903
+                },
+                "from": {
+                    "file": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 843,
+                        "endColumn": 64,
+                        "endOffset": 903
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 908,
+                    "endColumn": 74,
+                    "endOffset": 978
+                },
+                "from": {
+                    "file": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 908,
+                        "endColumn": 74,
+                        "endOffset": 978
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 983,
+                    "endColumn": 88,
+                    "endOffset": 1067
+                },
+                "from": {
+                    "file": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 983,
+                        "endColumn": 88,
+                        "endOffset": 1067
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1072,
+                    "endColumn": 60,
+                    "endOffset": 1128
+                },
+                "from": {
+                    "file": "/Users/adebayoolabode/Desktop/projects/client/legalpedia/mobile/android/Legalpedia/notification/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1072,
+                        "endColumn": 60,
+                        "endOffset": 1128
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main_view"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+<include
+        android:id="@+id/app_bar"
+        layout="@layout/main_toolbar"/>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true">
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:weightSum="1">
+            <com.legalpedia.android.app.views.CircleImageView
+                android:id="@+id/image"
+                android:src="@drawable/user_100"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"/>
+            <EditText
+                style="@style/FullWidthEditText"
+                android:id="@+id/firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/aluminum"
+                android:hint="Firstname"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="top|left"
+                android:textSize="16dip"/>
+
+
+
+
+            <EditText
+                style="@style/FullWidthEditText"
+                android:id="@+id/lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/aluminum"
+                android:hint="Lastname"
+                android:textColor="@color/black"
+                android:background="@drawable/searchview"
+                android:gravity="top|left"
+                android:textSize="16dip"/>
+
+            <EditText
+                style="@style/FullWidthEditText"
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/aluminum"
+                android:hint="Email"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="top|left"
+                android:textSize="16dip"/>
+
+            <EditText
+                style="@style/FullWidthEditText"
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/aluminum"
+                android:hint="Telephone"
+                android:textColor="@color/black"
+                android:background="@drawable/searchview"
+                android:gravity="top|left"
+                android:textSize="16dip"/>
+
+
+            <EditText
+                style="@style/FullWidthEditText"
+                android:id="@+id/skype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/aluminum"
+                android:hint="Skype"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="top|left"
+                android:textSize="16dip"/>
+
+
+            <EditText
+                style="@style/FullWidthEditText"
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/aluminum"
+                android:hint="Address"
+                android:textColor="@color/black"
+                android:background="@drawable/searchview"
+                android:gravity="top|left"
+                android:textSize="16dip"/>
+
+            <EditText
+                style="@style/FullWidthEditText"
+                android:id="@+id/address1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/aluminum"
+                android:hint="Address 1"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="top|left"
+                android:textSize="16dip"/>
+
+
+            <EditText
+                style="@style/FullWidthEditText"
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/aluminum"
+                android:hint="City"
+                android:textColor="@color/black"
+                android:background="@drawable/searchview"
+                android:gravity="top|left"
+                android:textSize="16dip"/>
+
+            <EditText
+                style="@style/FullWidthEditText"
+                android:id="@+id/town"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/aluminum"
+                android:hint="Town"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="top|left"
+                android:textSize="16dip"/>
+
+            <EditText
+                style="@style/FullWidthEditText"
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/aluminum"
+                android:hint="State"
+                android:textColor="@color/black"
+                android:background="@drawable/searchview"
+                android:gravity="top|left"
+                android:textSize="16dip"/>
+
+            <EditText
+                style="@style/FullWidthEditText"
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/aluminum"
+                android:hint="Country"
+                android:textColor="@color/black"
+                android:gravity="top|left"
+                android:textSize="16dip"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/progressview"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    tools:showIn="@layout/content_main">
+    <ProgressBar
+        android:id="@+id/pb"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:background="@color/primary_darker"
+        android:layout_above="@+id/logview"
+        />
+    <TextView
+        android:id="@+id/logview"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_above="@+id/bottomBar"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/primary_darker"
+        android:text="Fetching data from server............."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

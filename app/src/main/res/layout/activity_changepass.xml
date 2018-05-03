@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main_view"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+<include
+        android:id="@+id/app_bar"
+        layout="@layout/main_toolbar"/>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true">
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:weightSum="1">
+
+            <EditText
+                style="@style/FullWidthEditText"
+                android:id="@+id/oldpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/aluminum"
+                android:inputType="textPassword"
+                android:hint="Enter your old password"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="top|left"
+                android:textSize="16dip"/>
+
+
+
+
+            <EditText
+                style="@style/FullWidthEditText"
+                android:id="@+id/newpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/aluminum"
+                android:hint="Password should be at least 6 characters long"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                android:background="@drawable/searchview"
+                android:gravity="top|left"
+                android:textSize="16dip"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

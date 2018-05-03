@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/action_dictionary"
+        android:icon="@drawable/dictionary_25"
+        android:title="@string/dictionary_menu"/>
+
+        <item
+            android:id="@+id/action_journals"
+            android:icon="@drawable/journal_25"
+            android:title="@string/articles_menu"/>
+
+
+        <item
+            android:id="@+id/action_news"
+            android:icon="@drawable/news_25"
+            android:title="@string/news_menu"/>
+
+        <item
+            android:id="@+id/action_notes"
+            android:icon="@drawable/note_white_25"
+            android:title="@string/nav_notes"/>
+
+        <item
+            android:id="@+id/action_genie"
+            android:icon="@drawable/genie_white_25"
+            android:title="@string/nav_genie"/>
+
+
+
+
+
+
+        <item
+            android:id="@+id/navItemAccount"
+            android:icon="@drawable/ic_nav_profile"
+            android:title="@string/nav_myaccount"/>
+        <!--
+             <item
+                    android:id="@+id/navItemProfile"
+                    android:icon="@drawable/ic_nav_profile"
+                    android:title="@string/nav_profile"/>
+
+             <item
+                    android:id="@+id/navChangePassword"
+                    android:icon="@drawable/ic_nav_password"
+                    android:title="@string/nav_changepassword"/>
+                    -->
+
+             <item
+                    android:id="@+id/navItemSetting"
+                    android:icon="@drawable/ic_nav_settings"
+                    android:title="@string/action_settings"/>
+               <!-- <item
+                    android:id="@+id/navItemReset"
+                    android:icon="@drawable/icon_reset"
+                    android:title="@string/action_reset"/>-->
+
+     <item
+                  android:id="@+id/action_bugs"
+                  android:icon="@drawable/bug_white_25"
+                  android:title="@string/nav_bugreport"/>
+        <item
+            android:id="@+id/navItemVideos"
+            android:icon="@drawable/icon_video"
+            android:title="@string/action_videos"/>
+
+    <!-- <item
+                  android:id="@+id/navItemLogout"
+                  android:icon="@drawable/ic_nav_logout"
+                  android:title="@string/action_logout"/>
+-->
+
+
+        <item
+            android:id="@+id/navItemAbout"
+            android:icon="@drawable/ic_nav_logout"
+            android:title="@string/action_about"/>
+          </group>
+      </menu>
